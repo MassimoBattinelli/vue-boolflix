@@ -5,10 +5,10 @@
     </div>
     <div class="card-back">
       <h2>
-        Titolo: <span class="grey">{{ card.title }}</span>
+        Titolo: <span class="grey">{{ card.name }}</span>
       </h2>
       <h2>
-        Titolo originale: <span class="grey">{{ card.original_title }}</span>
+        Titolo originale: <span class="grey">{{ card.original_name }}</span>
       </h2>
       <h3 class="trama">
         <span class="grey">{{ card.overview }}</span>
@@ -32,7 +32,7 @@
 /* esling-disable */
 import LangFlag from "vue-lang-code-flags";
 export default {
-  name: "CardFilm",
+  name: "CardSerie",
   components: {
     LangFlag,
   },
